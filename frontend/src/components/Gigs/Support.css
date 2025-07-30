@@ -1,0 +1,71 @@
+#supportProfile{
+    display:flex;
+    padding-bottom:20px
+}
+
+.supportTitle{
+    font-size: 30px;
+    padding:30px;
+    text-transform: uppercase;
+}
+
+.supportImage{
+    flex:1.5;
+    position:relative;
+}
+
+.supportImage img{
+    width: 100%;
+    height:100%;
+}
+
+.supportInfo{
+    flex:4;
+    padding:100px;
+    text-align: left;;
+    font-size: 20px;
+}
+
+.header{
+    padding:0 !important;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.supportDetails p{
+    font-size:20px;
+    margin:0;
+}
+
+.supportButton{
+    text-align: left;
+    color:black;
+}
+
+.supportDetails {
+    margin: 20px 0;
+}
+
+.supportItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    #supportProfile {
+        flex-direction: column;
+    }
+    
+    .supportImage, .venueInfo {
+        width: 100%;
+    }
+    
+    .supportImage img {
+        max-height: 300px;
+        object-fit: cover;
+    }
+}

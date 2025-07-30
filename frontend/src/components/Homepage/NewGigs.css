@@ -1,0 +1,40 @@
+#newGigs {
+    width: 100%;
+    background-image: url("/images/background.png");
+    display: block;
+}
+
+#newGigs h1{
+    padding-top:15px;
+    font-size: 24px;
+}
+
+.circles{
+    padding: 3% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.quarter {
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+.quarter:hover{
+    transform: scale(1.2);
+
+}
+
+.circles a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+
+/* location labels */
+.location_label{
+    margin-top: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

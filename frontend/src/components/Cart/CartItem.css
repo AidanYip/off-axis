@@ -1,0 +1,37 @@
+.h-stack {
+    display: table-row;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+    gap: 1em;
+    border: 1px solid #bbb;
+    font-weight: 450;
+}
+
+.circular-button {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+#cart-item-gig {
+    text-decoration: none;
+    color: #01abc4;
+}
+
+#cart-item-gig:hover {
+    color: gray;
+}
+
+.small-input {
+    width: 53px;
+    padding: 1px;
+    font-size: 14px;
+    font-weight: 450;
+    text-align: center;
+    border-radius: 2px;
+}

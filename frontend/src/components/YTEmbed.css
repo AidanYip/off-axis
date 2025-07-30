@@ -1,0 +1,19 @@
+.videoPlayer {
+    display: inline-block;
+    position: relative;
+    width: 35vw;
+}
+
+.videoPlayer::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.videoPlayer iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

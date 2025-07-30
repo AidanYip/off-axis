@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('/fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('/fonts/Roboto_Condensed/RobotoCondensed-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+}
+
+body {
+    background-color: black !important;
+    color: white !important;
+}
+
+div {
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+#mid_section {
+    display: flex;
+    align-items: flex-start;
+}
+    
+#gig_button{
+    padding:20px 30px 30px 30px;
+}

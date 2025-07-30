@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('/fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('/fonts/Roboto_Condensed/RobotoCondensed-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+}
+
+body {
+    background-color: black !important;
+    color: white !important;
+}
+
+:root {
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}

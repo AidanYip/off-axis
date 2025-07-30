@@ -1,0 +1,172 @@
+.form-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#h1Bank {
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #fcfcfc;
+}
+
+#h2Reg {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fcfcfc;
+}
+
+#h3pw {
+    font-size: 32px;
+    margin-top: 235px;
+    margin-bottom: 20px;
+    color: #fcfcfc;
+}
+
+.form-element {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.form-check-element {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.form-check-element > input {
+    width: 20px;
+    margin-bottom: 0px;
+}
+
+.form-check-element > label {
+    margin-bottom: 0px;
+}
+
+.form-group-parent {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group-child { 
+    float: left;
+    width: 50%;
+}
+
+.sub-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fcfcfc;
+}
+
+.required {
+    color: red;
+}
+
+/* Label styles */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #fafafa;
+}
+
+/* Input styles */
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    color: black;
+    background-color: #f9f9f9;
+}
+
+/* Input focus styles */
+input:focus {
+    border-color: #ff8400;
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    color: black;
+    background-color: #f9f9f9;
+}
+
+textarea:focus {
+    border-color: #ff8400;
+    outline: none;
+}
+
+/* Button styles */
+.gradientButton {
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(221, 17, 103, 1) 0%, rgba(247, 239, 59, 1) 35%, rgba(25, 137, 42, 1) 70%, rgba(24, 146, 190, 1) 100%);
+    padding: 0.5em 2em;
+    border: none;
+    color: #000;
+    font-size: 1.2em;
+    line-height: 2em;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-style: normal;
+    margin-top: 1em;
+}
+
+.gradientButton:hover {
+    background: linear-gradient(-90deg, rgba(221, 17, 103, 1) 0%, rgba(247, 239, 59, 1) 35%, rgba(25, 137, 42, 1) 70%, rgba(24, 146, 190, 1) 100%);
+}
+
+/* Error message */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+/* Success message */
+.success-message {
+    color: green;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.back-button {
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    padding: 8px 32px;
+    background-color: #dd1167;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background-color: #dd1166d5;
+}

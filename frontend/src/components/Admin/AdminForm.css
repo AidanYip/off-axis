@@ -1,0 +1,27 @@
+label {
+  padding-top: 10px;
+  text-align: left;
+}
+
+.spacer {
+  display: block;
+  height: 25px;
+}
+
+.disabled {
+  color: gray;
+}
+
+#verified {
+  display: block;
+  width: 16px;
+  float: left;
+}
+
+#indicateField {
+  color: white;
+}
+
+.form-element p {
+  color: white;
+}

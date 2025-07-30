@@ -1,0 +1,88 @@
+.oanavbar {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 1.15em;
+    padding: 0.5em 0 0 0;
+}
+
+.logo img {
+    height: auto;
+    width: 100%;
+}
+
+.menu-items {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    gap: 0.75em;
+    list-style: none;
+}
+
+.menu-items li {
+    text-align: center;
+}
+
+.menu-items li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cart-items {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 1.2em;
+    padding: 0 2em 0 0;
+}
+
+.cart-items a {
+    text-decoration: none;
+    font-weight: 500;
+    color: inherit;
+    display: flex;
+    gap: 0.3em;
+    align-items: center;
+}
+
+#cart-span {
+    font-weight: 350;
+}
+
+.cart-items img {
+    height: 0.8em;
+    width: 0.8em;
+    margin-right: 0.3em;
+}
+  
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    border: 1px solid #292929;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content * {
+    justify-content: center;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content *:hover {background-color: #131313;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}

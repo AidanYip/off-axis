@@ -1,0 +1,50 @@
+.header{
+    padding:10px;
+    font-size:25px;
+}
+
+.gigCircle {
+    width: 20%;
+    aspect-ratio: 1/1;
+    margin: 2%;
+    transform: scale(1.025); 
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+.gigList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2% 6% 2% 6%;
+    margin: 0 auto;
+}
+
+.gigCircle:hover{
+    transform: scale(1.1);
+
+}
+
+.gigCircle a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .gigCircle {
+        width: 30%; /* 3 per row */
+    }
+}
+
+@media (max-width: 768px) {
+    .gigCircle {
+        width: 45%; /* 2 per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .gigCircle {
+        width: 90%; /* 1 per row */
+    }
+}

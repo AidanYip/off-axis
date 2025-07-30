@@ -1,0 +1,11 @@
+.search-box {
+    position: relative;
+    height: 50px;
+}
+
+.search-box .search-icon {
+  padding: 10px;
+  position: absolute;
+  right: 3px;
+  top:1px;
+}

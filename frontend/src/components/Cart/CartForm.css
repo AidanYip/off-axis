@@ -1,0 +1,105 @@
+#cart-h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#basket-h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.cart-form {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cart-table {
+    border: 1px solid #bbb;
+    border-collapse: collapse;
+    border-radius: 5px;
+    width: 100%;
+}
+
+th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cart-body {
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+.cart-row {
+    border: 1px solid #bbb;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cart-container {
+    margin: 0 3%;
+}
+
+.update-basket-button {
+    background: linear-gradient(90deg, rgba(221, 17, 103, 1) 0%, rgba(247, 239, 59, 1) 35%, rgba(25, 137, 42, 1) 70%, rgba(24, 146, 190, 1) 100%);
+    padding: 0.3em 1em;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    font-size: 1em;
+    line-height: 2em;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.update-basket-button:hover {
+    background: linear-gradient(-90deg, rgba(221, 17, 103, 1) 0%, rgba(247, 239, 59, 1) 35%, rgba(25, 137, 42, 1) 70%, rgba(24, 146, 190, 1) 100%);
+}
+
+.coupon-input {
+    width: 100px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 450;
+    text-align: center;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.basket-total {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.checkout-button {
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(221, 17, 103, 1) 0%, rgba(247, 239, 59, 1) 35%, rgba(25, 137, 42, 1) 70%, rgba(24, 146, 190, 1) 100%);
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    font-size: 18px;
+    line-height: 2em;
+    display: inline-block;
+    font-weight: 600;
+    font-style: normal;
+    margin: 10px;
+}
+
+.checkout-button:hover {
+    background: linear-gradient(-90deg, rgba(221, 17, 103, 1) 0%, rgba(247, 239, 59, 1) 35%, rgba(25, 137, 42, 1) 70%, rgba(24, 146, 190, 1) 100%);
+}

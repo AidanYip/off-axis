@@ -1,0 +1,33 @@
+.nav-pills .nav-link.active{
+    background-color: #d9d9d9;
+    color: black;
+}
+
+.nav-pills .nav-link{
+    color:black;
+}
+
+#admin-container {
+    background-color: white;
+    text-align: left;
+}
+
+.admin-list-item {
+    background-color: #d9d9d9;
+    border-radius: 10pt;
+}
+
+.admin-button {
+    text-align: right;
+}
+
+.item-title {
+    font-weight: bold;
+}
+
+#spacer {
+    background-color: white;
+    min-height: calc(100vh - 500px); /* Adjust 100px based on navbar/borders */
+    display: flex;
+    flex-direction: column;
+}

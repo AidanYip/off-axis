@@ -1,0 +1,29 @@
+#aotw {
+    width: 100%;
+    background-image: url("/images/background.png");
+    text-align: left;
+    display: block;
+}
+
+#aotw img {
+    display: inline-block;
+    width: 25%;
+    height: auto;
+    margin-right: 4%;
+    vertical-align: middle;
+}
+
+#aotw a {
+    margin-top: 2em;
+    bottom: 0;
+    vertical-align: bottom;
+}
+
+.textBlock {
+    width: 66%;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}

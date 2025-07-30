@@ -1,0 +1,106 @@
+.Register-container {
+    width: 30%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#h2Register {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fcfcfc;
+}
+
+.Register-element {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Label styles */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #fcfcfc;
+}
+
+/* Input styles */
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    color: black;
+    background-color: #f9f9f9;
+}
+
+
+.google-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    gap: 0.5em;
+    margin-bottom: 20px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.google-button img {
+    width: 18px;
+    height: 18px;
+}
+
+.login-separator {
+    display: flex;
+    gap: 1em;
+    color:#c3c3c3;
+    margin-bottom: 10px;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #f3f3f3;
+    margin: 10px 0;
+}
+
+/* Input focus styles */
+input:focus {
+    border-color: #ff8400;
+    outline: none;
+}
+
+/* Button styles */
+.RegisterButton {
+    max-width: 150px;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(221, 17, 103, 1) 0%, rgba(247, 239, 59, 1) 35%, rgba(25, 137, 42, 1) 70%, rgba(24, 146, 190, 1) 100%);
+    padding: 0.5em 2em;
+    border: none;
+    color: #000;
+    font-size: 1.2em;
+    line-height: 2em;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-style: normal;
+    margin-top: 1em;
+}
+
+.RegisterButton:hover {
+    background: linear-gradient(-90deg, rgba(221, 17, 103, 1) 0%, rgba(247, 239, 59, 1) 35%, rgba(25, 137, 42, 1) 70%, rgba(24, 146, 190, 1) 100%);
+}

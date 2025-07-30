@@ -1,0 +1,33 @@
+.accept-button {
+    background: rgb(0, 170, 0);
+    padding: 0.3em 1em;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    font-size: 1em;
+    line-height: 2em;
+    display: inline-block;
+    font-weight: 800;
+    margin: 0.5em;
+}
+
+.decline-button {
+    background: #20a0cf;
+    padding: 0.3em 1em;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    font-size: 1em;
+    line-height: 2em;
+    display: inline-block;
+    font-weight: 800;
+    margin: 0.5em;
+}
+
+.accept-button:hover {
+    background: rgba(0, 170, 0, 0.72);
+}
+
+.decline-button:hover {
+    background: #20a0cfbb;
+}
