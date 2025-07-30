@@ -1,6 +1,4 @@
-# Team sh32 Main Project - Team Project 3 Course 2024-25
-
-## Off Axis - Gig Ticketing & Management Platform
+# Off Axis - Gig Ticketing & Management Platform
 
 ## Description
 A ground-up rebuild of the Off Axis website that adds features to make it more streamlined and automated.
